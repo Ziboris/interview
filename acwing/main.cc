@@ -2,6 +2,8 @@
 
 // 算法基础班
 #include "quick_sort_785.h"
+#include "number_k_786.h"
+#include "merge_sort_787.h"
 
 // 算法提高班
 
@@ -11,6 +13,7 @@
 // ----------------------- 0.常数和全局变量定义 ------------------------
 const int N = 1e6;
 int n;
+int m;
 int q[N];
 
 
@@ -31,13 +34,16 @@ void display() {
 // ----------------------- 2.处理数据数据 ------------------------
 
 void code() {
-  acwing::topic785::solve(q, n);
+  // acwing::topic785::solve(q, n);
+  // acwing::topic786::solve(q, n, m);
+  acwing::topic787::solve(q, n);
 }
 
-
 // ----------------------- 1.读取数据 ------------------------
+
 void init_array_int() {
   scanf("%d", &n);
+  // scanf("%d", &m);
   for (int i = 0; i < n; ++i) {
     scanf("%d", &q[i]);
   }
