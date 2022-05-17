@@ -37,6 +37,7 @@ int merge_sort(int q[], int l, int r) {
   while (j <= mid) temp[k++] = q[j++];
   
   if (i = l, j = 0, i <= r; ++i, ++j) q[i] = temp[j];
+  return count1 + count2 + count3;
 }
 
 int solve(int q[], int n) {
