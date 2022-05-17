@@ -10,6 +10,8 @@
 #include "big_integer_subtract_792.h"
 #include "big_integer_multiply_793.h"
 #include "big_integer_devide_794.h"
+#include "prefix_sum_795.h"
+#include "prefix_metrix_sum_796.h"
 
 // 算法提高班头文件
 
@@ -48,7 +50,9 @@ void code() {
   // acwing::topic789::solve(q, n, m);
   // acwing::topic790::solve(d);
   // acwing::topic791::solve(str1, str2);
-  acwing::topic792::solve(str1, str2);
+  // acwing::topic792::solve(str1, str2);
+  // acwing::topic795::solve(q, n, m);
+  acwing::topic796::solve();
 }
 
 // ----------------------- 1.读取数据 ------------------------
@@ -71,14 +75,14 @@ void init_string() {
 }
 
 void init() {
-  // init_array_int();
+  init_array_int();
   // init_float_or_double();
-  init_string();
+  // init_string();
 }
 
 int main(void) {
   std::cout << "input" << std::endl;
-  init();
+  // init();
   code();
   // display();
   return 0;
