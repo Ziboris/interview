@@ -17,7 +17,7 @@ namespace topic792 {
 bool Cmp(const std::string& str1, const std::string& str2) {
   if (str1.size() != str2.size()) return str1.size() > str2.size();
   // 这里两个string的长度相等
-  for (int i = str1.size() - 1; i >= 0; --i) {
+  for (int i = 0; i <= str1.size() - 1; ++i) {
     if (str1[i] != str2[i]) return str1[i] > str2[i];
   }
   return true;
@@ -39,7 +39,6 @@ std::vector<int> Sub(const std::vector<int>& a, const std::vector<int>& b) {
 
 void solve(const std::string& str1, const std::string& str2) {
   bool str1_bigger = Cmp(str1, str2);
-  std::cout << str1_bigger << std::endl;
 
   std::vector<int> a, b;
   for (int i = str1.size() - 1; i >= 0; --i) a.push_back(str1[i] - '0');
