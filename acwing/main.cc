@@ -12,6 +12,14 @@
 #include "big_integer_devide_794.h"
 #include "prefix_sum_795.h"
 #include "prefix_metrix_sum_796.h"
+#include "difference_797.h"
+#include "difference_merix_798.h"
+#include "longest_not_repeat_799.h"
+#include "sorted_arrays_target_sum_800.h"
+#include "sub_sequence_2816.h"
+
+#include "linkedlist_operation_826.h"
+#include "bidirect_linkedlist_827.h"
 
 // 算法提高班头文件
 
@@ -52,14 +60,22 @@ void code() {
   // acwing::topic791::solve(str1, str2);
   // acwing::topic792::solve(str1, str2);
   // acwing::topic795::solve(q, n, m);
-  acwing::topic796::solve();
+  // acwing::topic796::solve();
+  // acwing::topic797::solve();
+  // acwing::topic798::solve();
+  // acwing::topic799::solve(q, n);
+  // acwing::topic800::solve();
+  // acwing::topic2816::solve();
+
+  // acwing::topic826::solve();
+  acwing::topic827::solve();
 }
 
 // ----------------------- 1.读取数据 ------------------------
 
 void init_array_int() {
   scanf("%d", &n);
-  scanf("%d", &m);
+  // scanf("%d", &m);
   for (int i = 0; i < n; ++i) {
     scanf("%d", &q[i]);
   }
