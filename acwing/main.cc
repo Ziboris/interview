@@ -20,6 +20,9 @@
 
 #include "linkedlist_operation_826.h"
 #include "bidirect_linkedlist_827.h"
+#include "array_simulation_stack_828.h"
+#include "array_simulation_queue_829.h"
+#include "monotomic_stack_830.h"
 
 // 算法提高班头文件
 
@@ -68,7 +71,9 @@ void code() {
   // acwing::topic2816::solve();
 
   // acwing::topic826::solve();
-  acwing::topic827::solve();
+  // acwing::topic827::solve();
+  // acwing::topic829::solve();
+  acwing::topic830::solve();
 }
 
 // ----------------------- 1.读取数据 ------------------------
