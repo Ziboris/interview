@@ -23,6 +23,9 @@
 #include "array_simulation_stack_828.h"
 #include "array_simulation_queue_829.h"
 #include "monotomic_stack_830.h"
+#include "sliding_window_154.h"
+#include "trie_835.h"
+#include "next_permutation_842.h"
 
 // 算法提高班头文件
 
@@ -73,7 +76,10 @@ void code() {
   // acwing::topic826::solve();
   // acwing::topic827::solve();
   // acwing::topic829::solve();
-  acwing::topic830::solve();
+  // acwing::topic830::solve();
+  // acwing::topic154::solve();
+  // acwing::topic835::solve();
+  acwing::topic842::solve();
 }
 
 // ----------------------- 1.读取数据 ------------------------

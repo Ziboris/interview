@@ -26,12 +26,11 @@ int merge_sort(int q[], int l, int r) {
   while (i <= mid && j <= r) {
     if (q[i] <= q[j]) temp[k++] = q[i++];
     else {
-      count3 += (r - i + 1);
+      count3 += (mid - i + 1);
       temp[k++] = q[j++];
     }
   }
   while (i <= mid) {
-    // count3 += (r - mid);
     temp[k++] = q[i++];
   }
   while (j <= mid) temp[k++] = q[j++];
